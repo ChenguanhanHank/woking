@@ -1,0 +1,39 @@
+
+(base)conda update conda
+
+(base)conda env list
+
+
+
+(base)conda install -c conda-forge jupyter notebook
+(base)conda install -c conda-forge jupyterlab
+
+(base)conda create --name "python3.6.8-OpenCV" python=3.6.8
+(base)conda activate "python3.6.8-OpenCV"
+
+
+(python3.6.8-OpenCV)conda install -c conda-forge jupyter notebook
+(python3.6.8-OpenCV)conda install -c conda-forge jupyterlab
+
+conda install jupyterlab
+conda install numpy 
+pip install opencv-python 
+pip install opencv-contrib-python
+conda install matplotlib
+conda install scikit-image
+pip install imutils
+pip install dlib==19.8.1
+
+
+
+
+創造環境
+創造kernel
+
+
+
+///////conda create --name "python3.8-2021-0722" python=3.8
+//////(python3.6.8-OpenCV)python -m ipykernel install --user --name "python3.8-2021-0722"
+
+
+

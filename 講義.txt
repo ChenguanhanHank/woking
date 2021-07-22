@@ -1,0 +1,3 @@
+https://yaojenkuo.io/python_4_ds/03-web-scraping-101.slides.html#/
+
+https://yaojenkuo.io/python_4_ds/01-setup.slides.html
